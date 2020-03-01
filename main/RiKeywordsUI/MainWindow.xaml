@@ -1,0 +1,10 @@
+<Window xmlns="https://github.com/avaloniaui" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" x:Class="RIKeywords.MainWindow" Title="RIKeywords" Background="White" MinWidth="640" MinHeight="480" Width="640" Height="480">
+    <Grid MinWidth="640" MinHeight="480">
+        <StackPanel Margin="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#AAFFFFFF">
+            <TextBlock Margin="0,5" HorizontalAlignment="Center" Text="Hello World"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
