@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Project>
+    <PropertyGroup>
+        <AvaloniaBaseVersion>0.9.4</AvaloniaBaseVersion>
+        <AvaloniaVersion>$(AvaloniaBaseVersion)</AvaloniaVersion>
+        <AvaloniaDesktopVersion>$(AvaloniaBaseVersion)</AvaloniaDesktopVersion>
+         <NUnitVersion>3.12.0</NUnitVersion>
+    </PropertyGroup>
+</Project>
