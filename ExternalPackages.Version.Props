@@ -4,6 +4,13 @@
         <AvaloniaBaseVersion>0.9.4</AvaloniaBaseVersion>
         <AvaloniaVersion>$(AvaloniaBaseVersion)</AvaloniaVersion>
         <AvaloniaDesktopVersion>$(AvaloniaBaseVersion)</AvaloniaDesktopVersion>
-         <NUnitVersion>3.12.0</NUnitVersion>
+        <NUnitVersion>3.12.0</NUnitVersion>
+        <NUnit3TestAdapterVersion>3.15.1</NUnit3TestAdapterVersion>
+        <MicrosoftNETTestSdkVersion>16.4.0</MicrosoftNETTestSdkVersion>
+        <FluentAssertionsVersion>5.9.0</FluentAssertionsVersion>
+        <MoqVersion>4.13.1</MoqVersion>
+        <SystemIOAbstractionsTestingHelpersVersion>2.1.0.178</SystemIOAbstractionsTestingHelpersVersion>
+        <SystemIOAbstractionsVersion>2.1.0.178</SystemIOAbstractionsVersion>
     </PropertyGroup>
 </Project>
+ 

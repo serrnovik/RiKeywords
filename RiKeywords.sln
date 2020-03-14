@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RiKeywords", "main\RiKeywordsUI\RiKeywords.csproj", "{01CDB225-F4E4-44A5-A23A-3A8F956D781C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiKeywordsCore.Tests", "tests\RiKeywordsCore.Tests\RiKeywordsCore.Tests.csproj", "{AD9022E9-E836-4082-98D9-B819779ED6A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiKeywordsCore", "main\RiKeywordsCore\RiKeywordsCore.csproj", "{3F016D59-D40F-4262-8F14-FB4BC77C68D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{01CDB225-F4E4-44A5-A23A-3A8F956D781C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01CDB225-F4E4-44A5-A23A-3A8F956D781C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01CDB225-F4E4-44A5-A23A-3A8F956D781C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9022E9-E836-4082-98D9-B819779ED6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9022E9-E836-4082-98D9-B819779ED6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9022E9-E836-4082-98D9-B819779ED6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9022E9-E836-4082-98D9-B819779ED6A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F016D59-D40F-4262-8F14-FB4BC77C68D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F016D59-D40F-4262-8F14-FB4BC77C68D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F016D59-D40F-4262-8F14-FB4BC77C68D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F016D59-D40F-4262-8F14-FB4BC77C68D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
