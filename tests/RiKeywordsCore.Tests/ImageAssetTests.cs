@@ -14,6 +14,8 @@ namespace RiKeywordsCore.Tests
         const string wrongFilePath = @"C:\wrongFileName.jpeg";
         const string mockFolderParth = @"C:\someFolder\";
         const string TestJpegFile1FileName = @"TestJpegFile1.jpg";
+        const string TestFileWithRealMetadataFileName = @"TestFileWithRealMetadata.jpg";
+        const string TestJpegFile2EmptyMetadataFileName = @"TestJpegFile2EmptyMetadata.jpg";
         const string correctTestFileName = TestJpegFile1FileName;
         private string correctTestFilePath;
         private ResourceFilesHelper resourceFilesHelper;
