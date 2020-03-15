@@ -11,6 +11,8 @@
         <MoqVersion>4.13.1</MoqVersion>
         <SystemIOAbstractionsTestingHelpersVersion>2.1.0.178</SystemIOAbstractionsTestingHelpersVersion>
         <SystemIOAbstractionsVersion>2.1.0.178</SystemIOAbstractionsVersion>
+        <MetadataExtractorVersion>2.3.0</MetadataExtractorVersion>
+        <SystemDrawingCommonVersion>4.7.0</SystemDrawingCommonVersion>
     </PropertyGroup>
 </Project>
  

@@ -1,16 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <Import Project="..\..\ExternalPackages.Version.Props" />
+  
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- <PackageReference Include="System.Drawing.Common" Version="$(SystemDrawingCommonVersion)" /> -->
     <PackageReference Include="System.IO.Abstractions" Version="$(SystemIOAbstractionsVersion)" />
     <PackageReference Include="MetadataExtractor" Version="$(MetadataExtractorVersion)" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\MetadataWriter\RiMetadataWriter.csproj" />
   </ItemGroup>
 </Project>

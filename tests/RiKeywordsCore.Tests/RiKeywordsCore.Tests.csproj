@@ -24,6 +24,7 @@
     <PackageReference Include="NUnit" Version="$(NUnitVersion)" />
     <PackageReference Include="System.IO.Abstractions" Version="$(SystemIOAbstractionsVersion)" />
     <PackageReference Include="System.IO.Abstractions.TestingHelpers" Version="$(SystemIOAbstractionsTestingHelpersVersion)" />
+    <PackageReference Include="MetadataExtractor" Version="$(MetadataExtractorVersion)" />
   </ItemGroup>
 
   <ItemGroup>
